@@ -29,7 +29,9 @@
     "test-coverage": "react-scripts test --coverage --watchAll=false",
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
-    "publicar": "npm run build && ./node_modules/.bin/gh-pages -d build"
+    "publicar": "npm run build && ./node_modules/.bin/gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
