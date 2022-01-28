@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
+import { Route, Switch } from 'react-router-dom';
+// import logo from './trivia.png';
 import './App.css';
+import Login from './pages/Login';
+import Feedbacks from './pages/Feedbacks';
+import GamePage from './pages/GamePage';
+import Ranking from './pages/Ranking';
+import Configurations from './pages/Configurations';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends React.Component {
+  render() {
+    return (
+      <Switch>
+        <Route exact path="/" component={ Login } />
+        <Route exact path="/feedback" component={ Feedbacks } />
+        <Route exact path="/gamepage" component={ GamePage } />
+        <Route exact path="/ranking" component={ Ranking } />
+        <Route exact path="/settings" component={ Configurations } />
+      </Switch>
+    );
+  }
 }
 
 export default App;

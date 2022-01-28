@@ -1,0 +1,10 @@
+.header-config {
+  align-items: center;
+  background-color: rgb(65, 25, 127);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.479);
+  color: white;
+  display: flex;
+  font-family: Lato , sans-serif;
+  height: 80px;
+  justify-content: space-around;
+}

@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.ranking-title {
+  align-items: center;
+  background-color: rgb(65, 25, 127);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.479);
+  color: rgb(218, 218, 218);
+  display: flex;
+  font-family: Lato , sans-serif;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px 10px;
+}
+
+.rankingList {
+  display: flex;
+  justify-content: center;
+}
+
+.ol-ranking {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.li-ranking {
+  align-items: center;
+  background-color: rgb(218, 218, 218);
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.479);
+  color: white;
+  display: flex;
+  height: 90px;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.score {
+  align-items: center;
+  display: flex;
+  margin-right: 10px;
+  width: 220px;
+}
+
+.score h3 {
+  color: blueviolet;
+  font-family: Lato , sans-serif;
+}
+
+.won, .best {
+  align-items: center;
+  background-color: blueviolet;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  padding: 5px;
+  width: 30px;
+
+}
+
+.won span, .best span {
+  color: white;
+  margin: 0;
+}
+
+.points {
+  background-color: blueviolet;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+  padding: 5px;
+  width: 50px;
+}
+
+.points h3 {
+  color: white;
+  font-family: Lato , sans-serif;
+}
+
+.li-ranking h1 {
+  color: rgb(116, 36, 192);
+  font-family: Lato , sans-serif;
+}
+
+.li-ranking h2 {
+  color: rgb(65, 25, 127);
+  font-family: Lato , sans-serif;
+}
+
+.mainInfos {
+  align-items: center;
+  display: flex;
+  width: 450px;
+}
+
+.mainInfos h2 {
+  display: flex;
+  justify-content: flex-start;
+  text-align: justify;
+  width: 100%;
+}
+
+.img-gravatar {
+  border-radius: 50px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.493);
+  display: flex;
+  height: 50px;
+  margin: 0 20px;
+}
+
+.btn-go-home {
+  background-color: rgb(19, 211, 153);
+  border: none;
+  border-radius: 7px;
+  box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.493);
+  color: white;
+  cursor: pointer;
+  font-weight: 800;
+  height: 40px;
+  margin: 5px;
+  width: 120px;
+}
+
+.btn-go-home:hover {
+  background-color: rgb(15, 151, 110);
+  border-radius: 15px;
+}
+
+.btn-go-home:active {
+  background-color: rgb(15, 151, 110);
+  border-radius: 15px;
+  box-shadow: 0 0 0  rgba(0, 0, 0, 0.493);
+}
